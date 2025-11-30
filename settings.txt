@@ -1,0 +1,87 @@
+# IPTV Playlist Merger Settings
+# =============================
+
+[Sources]
+# Playlist URLs to merge (one per line)
+https://iptv-org.github.io/iptv/categories/animation.m3u
+https://iptv-org.github.io/iptv/categories/classic.m3u
+https://iptv-org.github.io/iptv/categories/documentary.m3u
+https://iptv-org.github.io/iptv/categories/news.m3u
+https://iptv-org.github.io/iptv/categories/science.m3u
+https://iptv-org.github.io/iptv/languages/ara.m3u
+https://iptv-org.github.io/iptv/languages/fra.m3u
+https://iptv-org.github.io/iptv/countries/tn.m3u
+https://iptv-org.github.io/iptv/countries/ae.m3u
+
+[Categories Mapping]
+# Format: OriginalName=DisplayName
+News=Dépression
+Kids=Kids
+Movies=Films
+Documentary=Docs
+Music=Music
+Entertainment=Jaw
+Education=Education
+Science=Science
+Culture=Culture
+Animation=Kids
+Classic=Classiques
+Autre=Autre
+Sports=Sports
+Religious=Arnaque
+Business=Business
+Comedy=Comedy
+Cooking=Cooking
+Family=Family
+Lifestyle=Lifestyle
+Series=Series
+Travel=Travel
+Relax=Relax
+Legislative=Legislative
+General=Autre
+Undefined=Autre
+Public=Autre
+Interactive=Jaw
+Weather=Dépression
+
+[Categories Priorities]
+# Format: CategoryDisplayName=Priority (lower number = higher priority)
+Dépression=1
+Kids=2
+Films=3
+Docs=4
+Music=5
+Jaw=6
+Education=7
+Science=8
+Culture=9
+Classiques=10
+Business=11
+Comedy=12
+Cooking=13
+Family=14
+Lifestyle=15
+Series=16
+Travel=17
+Relax=18
+Legislative=19
+Autre=20
+Sports=21
+Arnaque=22
+
+[Regions]
+# Format: SourcePrefix=DisplayName
+AE=UAE
+ARA=Arabic
+FRA=French
+TN=Tunisia
+ANIMATION=International
+CLASSIC=International
+DOCUMENTARY=International
+NEWS=International
+SCIENCE=International
+
+[Output]
+# Output file names
+raw_playlist=playlist.m3u
+clean_playlist=playlist-clean.m3u
