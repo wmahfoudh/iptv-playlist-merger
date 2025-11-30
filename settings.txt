@@ -41,7 +41,7 @@ Legislative=Legislative
 General=Autre
 Undefined=Autre
 Public=Autre
-Interactive=Jaw
+Interactive=Relax
 Weather=Dépression
 
 [Categories Priorities]
@@ -51,7 +51,7 @@ Kids=2
 Films=3
 Docs=4
 Music=5
-Jaw=6
+Relax=6
 Education=7
 Science=8
 Culture=9
