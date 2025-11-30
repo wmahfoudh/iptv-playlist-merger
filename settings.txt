@@ -20,7 +20,7 @@ Kids=Kids
 Movies=Films
 Documentary=Docs
 Music=Music
-Entertainment=Jaw
+Entertainment=Relax
 Education=Education
 Science=Science
 Culture=Culture
@@ -28,7 +28,7 @@ Animation=Kids
 Classic=Classiques
 Autre=Autre
 Sports=Sports
-Religious=Arnaque
+Religious=Religion
 Business=Business
 Comedy=Comedy
 Cooking=Cooking
@@ -67,19 +67,19 @@ Relax=18
 Legislative=19
 Autre=20
 Sports=21
-Arnaque=22
+Religion=22
 
 [Regions]
 # Format: SourcePrefix=DisplayName
 AE=UAE
-ARA=Arabic
-FRA=French
-TN=Tunisia
-ANIMATION=International
-CLASSIC=International
-DOCUMENTARY=International
-NEWS=International
-SCIENCE=International
+ARA=Arabe
+FRA=Français
+TN=Tunisie
+ANIMATION=Divers
+CLASSIC=Divers
+DOCUMENTARY=Divers
+NEWS=Divers
+SCIENCE=Divers
 
 [Output]
 # Output file names

@@ -44,7 +44,6 @@ News=Dépression
 Movies=Films
 Documentary=Docs
 Animation=Kids
-Religious=Arnaque
 ```
 
 ### [Categories Priorities]
